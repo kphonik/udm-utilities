@@ -2,8 +2,8 @@
 
 ## configuration variables:
 VLAN=5
-IPV4_IP="10.0.5.3"
-IPV4_GW="10.0.5.1/24"
+IPV4_IP="172.16.64.3"
+IPV4_GW="172.16.64.1/24"
 
 # if you want IPv6 support, generate a ULA, select an IP for the dns server
 # and an appropriate gateway address on the same /64 network. Make sure that
@@ -25,7 +25,7 @@ IPV6_GW=""
 FORCED_INTFC=""
 
 # container name; e.g. nextdns, pihole, adguardhome, etc.
-CONTAINER=nextdns
+CONTAINER=adguardhome
 
 ## network configuration and startup:
 CNI_PATH=/mnt/data/podman/cni
