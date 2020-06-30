@@ -10,8 +10,8 @@
         "type": "static",
         "addresses": [
           {
-            "address": "10.0.5.3/24",
-            "gateway": "10.0.5.1"
+            "address": "172.16.64.3/24",
+            "gateway": "172.16.64.1"
           }
         ],
         "routes": [
