@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ## configuration variables:
-VLAN=5
+VLAN=64
 IPV4_IP="172.16.64.3"
 IPV4_GW="172.16.64.1/24"
 
